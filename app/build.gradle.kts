@@ -70,7 +70,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("androidx.compose.material3:material3:1.2.0") // Update this to latest
+    implementation(libs.material3) // Update this to latest
     implementation(libs.androidx.animation.core) // Ensure compatibility
 
     // Hilt

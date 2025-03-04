@@ -10,6 +10,6 @@ interface NewsApiService {
         @Query("q") query: String,
         @Query("page") page: Int,
         @Query("pageSize") pageSize: Int,
-        @Query("apiKey") apiKey: String = "64a4cdedb68f487aa44cb26782052117"?:"84c8ffe674244229b62799d33774504a"
+        @Query("apiKey") apiKey: String = /*"64a4cdedb68f487aa44cb26782052117"?:*/"84c8ffe674244229b62799d33774504a"
     ): NewsResponse
 }
